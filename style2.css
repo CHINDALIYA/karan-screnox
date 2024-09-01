@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #126c0c;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgb(2, 2, 6);
+}
+
+.btn {
+  background-color: #ffc400;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.product-item {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #fcd3d3;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-item h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.product-item p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.product-item button {
+  background-color: #ffb10a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-item button:hover {
+  background-color: #45a049;
+}
+
+#about, #contact {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+#about h2, #contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#contact button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

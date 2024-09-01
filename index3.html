@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Products</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Screnox shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Screnox Shop</h2>
+            <p>Your one-stop shop for sustainable, eco-friendly products.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="wooden1 (1).jpeg" alt="Product 1">
+                <img src="wooden1 (2).jpeg" alt="Product 1">
+                <img src="wooden 3.jpeg" alt="Product 1">
+                <h3>wooden spoon</h3>
+                <p> ₹280</p>
+                <button onclick="addToCart('wooden spoon', 280)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="fruit basket 1.jpeg" alt="Product 2">
+                <img src="fruit basket 2.jpeg" alt="Product 2">
+                <h3>Reusable fruit Bag</h3>
+                <p> ₹ 580</p>
+                <button onclick="addToCart('Reusable fruit Bag', 580)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="bag1.jpeg" alt="Product 3">
+                <img src="bag2.jpeg" alt="Product 3">
+                <h3>Cotton Bag </h3>
+                <p>₹455</p>
+                <button onclick="addToCart('Cotton Bag', 455)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Bamboo water bottle 1.jpeg" alt="Product 4">
+                <img src="Bamboo water bottle 2.jpeg" alt="Product 4">
+                <h3>Organic bamboo bottle</h3>
+                <p> ₹655</p>
+                <button onclick="addToCart('Organic bamboo bottle', 655)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="basket 1.jpeg" alt="Product 5">
+                <img src="basket 2.jpeg" alt="Product 5">
+                <h3>Organic basket</h3>
+                <p>₹550</p>
+                <button onclick="addToCart('Organic basket', 550)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="Wooden Leaf 1.jpeg" alt="Product 6">
+            <img src="Wooden Leaf 2.jpeg" alt="Product 6">
+            <h3>Organic wooden Leaf</h3>
+            <p> ₹340</p>
+            <button onclick="addToCart('Organic Wooden Leaf', 340)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="coconut bowl 1.jpg" alt="Product 7">
+            <img src="coconut bowl 2.jpeg" alt="Product 7">
+            <h3>Organic coconut bowl</h3>
+            <p>₹350 </p>
+            <button onclick="addToCart('Organic Coconut bowl', 350 )">Add to Cart</button>
+        </div>
+
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>EcoShop is dedicated to providing sustainable, eco-friendly products that help reduce our impact on the environment. We believe that small changes can make a big difference, and we're here to support you on your journey to a greener lifestyle.<br>
+    1] pardeshikaran830@gmail.com.     [karan pardeshi] <br></span> 
+    2] varadmane142@gmail.com .               [varad mane] <br> 
+    3] ombhanumate@gmail.com .                [om bhanumate] <br>
+    4] sahilreshim441@gmail.com .              [sahilreshim] <br></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EcoShop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
